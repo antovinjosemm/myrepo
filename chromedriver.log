@@ -1,0 +1,125 @@
+[0.000][INFO]:      ChromeDriver 22.0.1203.0 C:\avinjose\workspace\Bluefin-Tests-MobileCommerce\chromedriver.exe
+[1.031][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.031][INFO]:      Launching chrome: "C:\Documents and Settings\AVinJose\Local Settings\Application Data\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
+[1.512][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.110
+[1.538][FINE]:      Command received (/session/c07e10374d3cdac62a92304a22be08a0)
+[1.538][FINE]:      Command finished (/session/c07e10374d3cdac62a92304a22be08a0) with response {
+   "sessionId": "c07e10374d3cdac62a92304a22be08a0",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "22.0.1203.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.110",
+      "webStorageEnabled": true
+   }
+}
+
+[1.562][FINE]:      Command received (/session/c07e10374d3cdac62a92304a22be08a0/url) with params {
+   "url": "http://www.google.co.in"
+}
+
+[1.562][FINER]:     Waiting for all views to stop loading...
+[1.562][FINER]:     Done waiting for all views to stop loading
+[2.123][FINER]:     Waiting for all views to stop loading...
+[2.123][FINER]:     Done waiting for all views to stop loading
+[2.123][FINE]:      Command finished (/session/c07e10374d3cdac62a92304a22be08a0/url) with response {
+   "sessionId": "c07e10374d3cdac62a92304a22be08a0",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.134][FINE]:      Command received (/session/c07e10374d3cdac62a92304a22be08a0/element) with params {
+   "using": "name",
+   "value": "q"
+}
+
+[2.134][FINER]:     Waiting for all views to stop loading...
+[2.144][FINER]:     Done waiting for all views to stop loading
+[2.248][FINER]:     Waiting for all views to stop loading...
+[2.248][FINER]:     Done waiting for all views to stop loading
+[2.248][FINE]:      Command finished (/session/c07e10374d3cdac62a92304a22be08a0/element) with response {
+   "sessionId": "c07e10374d3cdac62a92304a22be08a0",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1382959845486"
+   }
+}
+
+[2.256][FINE]:      Command received (/session/c07e10374d3cdac62a92304a22be08a0/element/:wdc:1382959845486/value) with params {
+   "id": ":wdc:1382959845486",
+   "value": [ "selenium" ]
+}
+
+[2.256][FINER]:     Waiting for all views to stop loading...
+[2.256][FINER]:     Done waiting for all views to stop loading
+[2.495][FINER]:     Waiting for all views to stop loading...
+[2.495][FINER]:     Done waiting for all views to stop loading
+[2.495][FINE]:      Command finished (/session/c07e10374d3cdac62a92304a22be08a0/element/:wdc:1382959845486/value) with response {
+   "sessionId": "c07e10374d3cdac62a92304a22be08a0",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.497][FINE]:      Command received (/session/c07e10374d3cdac62a92304a22be08a0/element) with params {
+   "using": "id",
+   "value": "gbqfb"
+}
+
+[2.497][FINER]:     Waiting for all views to stop loading...
+[2.497][FINER]:     Done waiting for all views to stop loading
+[2.507][FINER]:     Waiting for all views to stop loading...
+[2.508][FINER]:     Done waiting for all views to stop loading
+[2.508][FINE]:      Command finished (/session/c07e10374d3cdac62a92304a22be08a0/element) with response {
+   "sessionId": "c07e10374d3cdac62a92304a22be08a0",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1382959845487"
+   }
+}
+
+[2.510][FINE]:      Command received (/session/c07e10374d3cdac62a92304a22be08a0/element/:wdc:1382959845487/click) with params {
+   "id": ":wdc:1382959845487"
+}
+
+[2.510][FINER]:     Waiting for all views to stop loading...
+[2.510][FINER]:     Done waiting for all views to stop loading
+[2.537][WARNING]:   Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <span class="gbqfi gb_c"></span>
+[2.551][FINER]:     Waiting for all views to stop loading...
+[2.551][FINER]:     Done waiting for all views to stop loading
+[2.551][FINE]:      Command finished (/session/c07e10374d3cdac62a92304a22be08a0/element/:wdc:1382959845487/click) with response {
+   "sessionId": "c07e10374d3cdac62a92304a22be08a0",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[7.556][FINE]:      Command received (/session/c07e10374d3cdac62a92304a22be08a0/window)
+[8.160][INFO]:      Chrome shutdown
